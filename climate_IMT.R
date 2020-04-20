@@ -4,8 +4,7 @@
 
 rm(list=ls())
 
-setwd("/Users/jiaxiu/Dropbox/IMT_8")
-#setwd("C:/Users/P278113/Dropbox/IMT_8")
+setwd("")
 
 #library(dismo)
 library(raster)
