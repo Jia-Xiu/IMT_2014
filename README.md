@@ -5,8 +5,8 @@ Authors: Xiu Jia, Shuang Pang, Shasha Dun, Jirong Cao, Wenhao Zhang, Linghao Li,
 
 ## climate data and map
 climate information
-* [.sh](https://github.com/Jia-Xiu/Jia_et_al_2020/blob/master/script_DNA_RNA_DADA2_xiu_28-11-2019.sh)
+* [climate_IMT.R](https://github.com/Jia-Xiu/IMT_2014/blob/master/climate_IMT.R)
 	 
 ## Community and statistic analysis 
 * alpha & beta-diversity analysis:
-	* [alpha_diversity.R](https://github.com/Jia-Xiu/Jia_et_al_2020/blob/master/alpha_diversity_dna_rna.R)
+	* [alpha_diversity.R](https://github.com/Jia-Xiu/)
