@@ -6,6 +6,7 @@ Authors: Xiu Jia, Shuang Pang, Shasha Dun, Jirong Cao, Wenhao Zhang, Linghao Li,
 ## climate data and map
 climate information
 * [climate_IMT.R](https://github.com/Jia-Xiu/IMT_2014/blob/master/climate_IMT.R)
+* [climate_IMT.R](https://github.com/Jia-Xiu/IMT_2014/blob/master/climate_IMT.R)
 	 
 ## Community and statistic analysis 
 * alpha & beta-diversity analysis:
