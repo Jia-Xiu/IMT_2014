@@ -4,8 +4,7 @@
 
 rm(list=ls())
 
-setwd("/Users/jiaxiu/Dropbox/IMT_8")
-#setwd("C:/Users/P278113/Dropbox/IMT_8")
+setwd("")
 
 library(ggmap)
 library(ggsn) #North Symbols and Scale Bars for Maps Created with 'ggplot2' or 'ggmap'
@@ -23,17 +22,8 @@ head(df)
 ll_means <- sapply(df[2:3], mean)
 ll_means
 
-# register_google(key = "AI", write = TRUE)
-# Creating file /Users/jiaxiu/.Renviron
-# Adding key to /Users/jiaxiu/.Renviron
+
 sq_map <- get_map(location = ll_means,  maptype = "satellite", source = "google", zoom = 6)
-# In ggmap, downloading a map as an image and formatting the image for plotting is done with the get_map function.
-#> Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=44.061962,116.253856&zoom=6&size=640x640&scale=2&maptype=satellite&language=en-EN&sensor=false
-# zoom argument (3-20): 3 continental level; 10 city scale; 20 single building level
-# geocode(): determine the appropriate longitude/latitude
-# In lieu of a center/zoom specification, some users find a bounding box specification more convenient.
-# To accommodate this form of specification, location also accepts numeric vectors of length four,
-# following the left/bottom/right/top convention. This option is not currently available for Google Maps
 
 (p <- ggmap(sq_map) + 
     geom_point(data = df, aes(x=lons, y=lats, fill = Sites), shape = 21, 
